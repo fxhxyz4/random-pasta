@@ -6,6 +6,5 @@
   "license": "MIT",
   "scripts":  {
     "css": "css-minify -f ./css/index.css"
-  },
-  "devDependencies": {}
+  }
 }
