@@ -1,7 +1,11 @@
 {
   "name": "random pasts",
-  "author": "fxhxyz <fxhxyz@proton.me>",
-  "version": "1.0.1",
+  "description": "one MaN spam",
+  "keywords": ["less", "twitch", "LULE", "javascript", "твич"],
+  "homepage": "https://fxhxyz4.github.io",
+  "bugs": "https://github.com/fxhxyz4/random-pasta/issues",
+  "author": "fxhxyz <fxhxyz@proton.me> (https://fxhxyz4.github.io)",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts":  {
