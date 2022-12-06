@@ -1,7 +1,13 @@
 ### random pasta
+#
 
-### yarn init -y 
+### install yarn
+> npm i yarn -g 
+#
 
-### yarn global add css-minify
+### install dependencies
+> yarn global add css-minify
+#
 
-### yarn css
+### run css minify
+> yarn css
