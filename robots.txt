@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+
+Host: https://fxhxyz.github.io/
+Sitemap: https://fxhxyz.github.io/sitemap.xml

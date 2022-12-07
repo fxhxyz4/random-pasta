@@ -15,9 +15,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "css": "css-minify -f ./css/index.css"
+    "dev":"lessc ./src/less/index.less ./src/less/index.css",
+    "css": "css-minify -f ./src/less/index.css"
   },
   "dependencies": {
-    "css-minify": "^2.0.0"
+    "css-minify": "^2.0.0",
+    "less": "^4.1.3"
   }
 }
