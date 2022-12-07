@@ -1,13 +1,19 @@
-### random pasta
-#
-
-### install yarn
-> npm i yarn -g 
+### random pasts
 #
 
 ### install dependencies
-> yarn global add css-minify
+```
+$ npm install
+```
 #
 
-### run css minify
-> yarn css
+### run less compiler
+```
+$ npm run dev
+```
+#
+
+### run css-minify
+```
+$ npm run css
+```
