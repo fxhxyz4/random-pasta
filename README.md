@@ -7,13 +7,7 @@ $ npm install
 ```
 #
 
-### run less compiler
+### run less compiler and css-minify
 ```
 $ npm run dev
-```
-#
-
-### run css-minify
-```
-$ npm run css
 ```
