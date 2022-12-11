@@ -16,7 +16,7 @@
   "scripts": {
     "less":"lessc ./src/less/index.less ./src/css/index.css",
     "css": "css-minify -f ./src/less/index.css",
-    "dev": "lessc ./src/less/index.less ./src/css/index.css && css-minify -f ./src/less/index.css -o ./src/css/"
+    "dev": "lessc ./src/less/index.less ./src/css/index.css && css-minify -f ./src/css/index.css -o ./src/css/"
   },
   "dependencies": {
     "css-minify": "^2.0.0",

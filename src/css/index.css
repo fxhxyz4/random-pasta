@@ -38,7 +38,7 @@ ul {
   background-color: #1b1b1b;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: gray;
+  background-color: grey;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -80,7 +80,7 @@ ul {
   font-weight: 400;
   padding: 12px 0px;
   font-size: 22px;
-  color: gray;
+  color: #eee;
   transition: color 399ms ease;
 }
 .header__link:focus,
@@ -292,7 +292,7 @@ ul {
 .footer__link {
   cursor: default;
   padding: 30px 60px;
-  color: gray;
+  color: grey;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -308,7 +308,7 @@ ul {
   align-items: center;
 }
 .footer {
-  border-top: 1px solid gray;
+  border-top: 1px solid grey;
 }
 @media screen and (min-width: 100px) and (max-width: 1000px) {
   .footer {
