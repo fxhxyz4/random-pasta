@@ -80,7 +80,7 @@ ul {
   font-weight: 400;
   padding: 12px 0px;
   font-size: 22px;
-  color: #dfdfdf;
+  color: #cacaca;
   transition: color 399ms ease;
 }
 .header__link:focus,
@@ -271,6 +271,8 @@ ul {
 .main__copy {
   cursor: pointer;
   font-size: 20px;
+  color: #FFF;
+  border: none;
 }
 .main__download {
   display: inline-block;
@@ -292,7 +294,7 @@ ul {
 .footer__link {
   cursor: default;
   padding: 30px 60px;
-  color: #dfdfdf;
+  color: #cacaca;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
