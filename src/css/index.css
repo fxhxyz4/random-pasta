@@ -80,7 +80,7 @@ ul {
   font-weight: 400;
   padding: 12px 0px;
   font-size: 22px;
-  color: #eee;
+  color: #dfdfdf;
   transition: color 399ms ease;
 }
 .header__link:focus,
