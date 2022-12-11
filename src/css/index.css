@@ -273,6 +273,7 @@ ul {
   font-size: 20px;
   color: #FFF;
   border: none;
+  background-color: #000;
 }
 .main__download {
   display: inline-block;
