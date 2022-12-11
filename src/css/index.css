@@ -292,7 +292,7 @@ ul {
 .footer__link {
   cursor: default;
   padding: 30px 60px;
-  color: grey;
+  color: #dfdfdf;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
