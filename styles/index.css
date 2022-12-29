@@ -14,7 +14,7 @@
 html body {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   text-align: center;
@@ -150,9 +150,9 @@ ul {
   justify-content: center;
   text-align: center;
   width: 140px;
-  height: 40px;
+  padding: 10px 14px;
   border-radius: 5px;
-  animation: active 8s ease;
+  animation: active 9s ease-in-out;
 }
 @keyframes active {
   0% {
@@ -166,11 +166,11 @@ ul {
   }
   40% {
     top: 50px;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
+    opacity: 0;
   }
   100% {
     top: 50px;
+    opacity: 0;
   }
 }
 .main {
@@ -290,6 +290,20 @@ ul {
 @media screen and (min-width: 100px) and (max-width: 1000px) {
   .main__download {
     display: none;
+  }
+}
+@media screen and (min-width: 120px) and (max-width: 1399px) {
+  #aside {
+    display: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #aside {
+    position: absolute;
+    top: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 40px;
   }
 }
 .footer__link {

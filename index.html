@@ -22,7 +22,6 @@
 		<meta property="og:image:alt" content="chatting" />
 		<meta property="og:url" content="https://fxhxyz4.github.io/random-pasta/" />
 		<meta name="robots" content="index" />
-		<meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png" />
 		<meta name="google-site-verification" content="QEg2aLmD5Wh3rQLARor1vFecUJteoGo21BAR9iwYInI" />
 		<meta name="yandex-verification" content="1ce8a1d821ac7c08" />
 		<!-- /Meta -->
@@ -48,7 +47,7 @@
 			rel="preload"
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap"
 			rel="stylesheet"
-			as="font"
+			as="style"
 		/>
 		<link rel="preload" href="./styles/index.min.css" as="style" />
 		<link rel="preload" href="./js/index.js" as="script" />
@@ -80,9 +79,7 @@
 					<img class="header__img" src="./img/favicon.gif" alt="chatting" title="chatting" width="33" height="33" />
 					<a class="header__logo" href="/" lang="en"> Chatting </a>
 
-					<a class="header__link--mobile" href="https://github.com/fxhxyz4" target="_blank" rel="noopener noreferrer nofollow" lang="en">
-						GitHub
-					</a>
+					<a class="header__link--mobile" href="https://github.com/fxhxyz4" target="_blank" rel="noopener noreferrer nofollow" lang="en"> GitHub </a>
 
 					<ul class="header__list">
 						<li class="header__item">
@@ -92,9 +89,7 @@
 							<a class="header__link" href="https://discord.com" target="_blank" rel="noopener noreferrer nofollow" lang="en"> Discord </a>
 						</li>
 						<li class="header__item">
-							<a class="header__link" href="https://github.com/fxhxyz4" target="_blank" rel="noopener noreferrer nofollow" lang="en">
-								GitHub
-							</a>
+							<a class="header__link" href="https://github.com/fxhxyz4" target="_blank" rel="noopener noreferrer nofollow" lang="en"> GitHub </a>
 						</li>
 					</ul>
 				</nav>
@@ -109,8 +104,8 @@
 				<div class="main__div">
 					<div class="main__text">
 						<p class="main__pasta">
-							Привет это я - твой единственный зритель. Я на протяжении многих лет создавал иллюзию того, что тебя смотрят много людей, но
-							это был я. Сейчас напишу это сообщение со всех аккаунтов.
+							Привет это я - твой единственный зритель. Я на протяжении многих лет создавал иллюзию того, что тебя смотрят много людей, но это был я.
+							Сейчас напишу это сообщение со всех аккаунтов.
 						</p>
 					</div>
 					<div class="main__btn">
@@ -124,6 +119,19 @@
 					<span class="main__accent">Download </span>pasts.json
 				</a>
 			</div>
+			<!-- Aside -->
+			<aside class="aside" id="aside">
+				<a
+					class="twitter-timeline aside__link"
+					data-lang="en"
+					data-width="300"
+					data-height="500"
+					data-theme="dark"
+					href="https://twitter.com/fxhxyz?ref_src=twsrc%5Etfw"
+					>Tweets by fxhxyz</a
+				>
+			</aside>
+			<!-- /Aside -->
 		</main>
 		<!-- /Main -->
 
@@ -139,6 +147,7 @@
 
 		<!-- Scripts -->
 		<script src="./js/index.js" type="text/javascript" defer></script>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<!-- /Scripts -->
 	</body>
 </html>

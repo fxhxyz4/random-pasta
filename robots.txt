@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Host: https://fxhxyz4.github.io/
-Sitemap: https://fxhxyz4.github.io/sitemap.xml
+Host: https://fxhxyz4.github.io/random-pasta/
+Sitemap: https://fxhxyz4.github.io/random-pasta/sitemap.xml
