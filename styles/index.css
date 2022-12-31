@@ -212,6 +212,12 @@ ul {
     height: 500px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .main__aside {
+    display: flex;
+    gap: 220px;
+  }
+}
 .main__btn {
   position: fixed;
   top: 580px;
@@ -292,18 +298,15 @@ ul {
     display: none;
   }
 }
-@media screen and (min-width: 120px) and (max-width: 1399px) {
+@media screen and (min-width: 120px) and (max-width: 1599px) {
   #aside {
     display: none;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   #aside {
-    position: absolute;
-    top: 100px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    padding-left: 40px;
+    margin-top: 240px;
+    padding-left: 210px;
   }
 }
 .footer__link {
